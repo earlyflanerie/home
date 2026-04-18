@@ -46,8 +46,8 @@ h2 {
 
 /* MISE EN PAGE */
 html, body {
-  overflow: hidden; /* empêche le scroll global */
-  height: 100%; /* pour bien fixer la hauteur */
+  overflow: hidden; /* no scroll global */
+  height: 100%; /* pour bien fixer la hauteur :) */
 }
 
 * {
@@ -55,7 +55,6 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
 
 .scroll-layout {
     display: flex;
@@ -75,12 +74,10 @@ html, body {
     padding-left: 1rem;
 }
 
-
 .scroll-column:last-child {
     flex: 3;
     border-right: none;
 }
-
 
 .spacer {
   height: 10px; /* marge du haut */
@@ -88,7 +85,6 @@ html, body {
 
 
 /* HOVER */
-
 
 a {
   outline: none;
@@ -106,20 +102,21 @@ a:visited {
 
 a:focus {
   border-bottom: 1px solid;
-  background: #ceffae; /* surligner */
+  background: #F0F0B5; /* surligner (seafoam yellow)*/
 }
 
 a:hover {
   border-bottom: 1px solid;
-  background: #ceffae;
+  background: #F0F0B5;
 }
 
 a:active {
   background: #000000;
-  color: #cdfeaa;
+  color: #F0F0B5;
 }
 
-/* image centrée */
+
+/* PLACEMENT D'IMAGE */
 .center-image {
   display: block;
   margin: 0 auto;
