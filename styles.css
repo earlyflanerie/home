@@ -16,7 +16,6 @@
 body {
     font-family: 'InstrumentSerifI';
     font-size: 18px;
-    margin: 10px;
     background: white;
 }
 p[lang="fr"] {
@@ -83,6 +82,11 @@ html, body {
 }
 
 
+.spacer {
+  height: 10px; /* marge du haut */
+}
+
+
 /* HOVER */
 
 
@@ -123,5 +127,5 @@ a:active {
 
 .decale-gauche {
   display: block;
-  margin-left: 10%;
+  margin-left: 5%;
 }
