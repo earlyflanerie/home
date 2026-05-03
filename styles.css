@@ -122,7 +122,12 @@ a:active {
   margin: 0 auto;
 }
 
-.decale-gauche {
+.decale-gauche5 {
   display: block;
   margin-left: 5%;
+}
+
+.decale-gauche {
+  display: block;
+  margin-left: 20%;
 }
