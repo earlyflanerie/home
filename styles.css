@@ -46,8 +46,8 @@ h2 {
 
 /* MISE EN PAGE */
 html, body {
-  overflow: hidden; /* no scroll global */
-  height: 100%; /* pour bien fixer la hauteur :) */
+  overflow: hidden; /* pas de scroll global */
+  height: 100%; /* pour fixer la hauteur */
 }
 
 * {
@@ -59,7 +59,7 @@ html, body {
 .scroll-layout {
     display: flex;
     height: 100vh;
-    /* hauteur fixe pour scroll */
+    /* hauteur fixe pour le scroll */
     gap: 2rem;
 }
 
